@@ -1,0 +1,121 @@
+Reach water quality data           .rwq file 12/7/2017 12:00:00 AM ArcSWAT 2012.10_3.19
+Bottom Algae: 
+               1      |  Ab_light : light limitation option (1,2,3) 
+               1      |  Ab_ipho  : photosynthesis model option (0, zero order; 1, first order)        
+               0.07   |  Ab_Ksnb :  external N half-saturation constant (mg N/L)  
+               2.54   |  Ab_KqN :   intracelluar N half-saturation constant (mgN/gD)
+               4.17   |  Ab_qoN :   minimum cell quotas of N (mgN/gD)
+               0.098  |  Ab_Kspb :  external P half-saturation constant (mg P/L) 
+               4.93   |  Ab_KqP :   intracelluar P half-saturation constant (mgP/gD) 
+               1.93   |  Ab_qoP :   minimum cell quotas of P (mgN/gD) 
+               0.6    |  Ab_fdic :  the fraction of DIC in H2CO3* and HCO3-,for calculating nutrient limitation
+               0.792  |  Ab_kscb :  Inorganic carbon half saturation constant (mg/L,unit converted)
+               0.02   |  Ab_keb :   background light extinction coefficient (/m)
+               0.052  |  Ab_kiss :  light extinction coefficient by inorganic suspended solids (L/mgD/m) 
+               0.174  |  Ab_kpom :  light extinction coefficient by particular organic matter (POM) (L/mgD/m) 
+               0.009  |  Ab_kap :   linear light extinction coefficient by algae (L/ugA/m) 
+               0.054  |  Ab_kapn :  non-linear light extinction coefficient by algae (L/ugA)2/3/m 
+               0.024  |  Ab_kAb :   linear light extinction coefficient by bottom [m3/gD/m] 
+               0.6    |  Ab_ksob :  half-saturation oxygen inhibition constant for respiration 
+               1.581  |  Ab_klb :   bottom algae light parameter (MJ/m2/day)   ---Ab_rp(jres)%klb
+             200.0    |  Ab_Abmax : First-order carrying capacity of bottom algae [gD/m2/d]  
+              36.2    |  Ab_kph :   maximum photosynthesis rate [d-1 or gD/m2/day]     !!  Junyu Qi -----2.0 W2
+               0.042  |  Ab_krb1 :  bottom algae basal respiration                     !!  Junyu Qi ----- 0.04 W2
+               0.389  |  Ab_krb2 :  photo-respiration rate parameter                   !!  Junyu Qi ------  0.04 W2
+               0.02   |  Ab_kdb :   bottom algae death rate (/day)                     !!  Junyu Qi ------ 0.1 W2
+               0.21   |  Ab_kexb :  bottom algae excretion rate (/day) 
+              37.85   |  Ab_pmP :   maximum uptake rate for P (mgP/gD/day)
+             284.7    |  Ab_pmN :   maximum uptake rate for N (mgN/gD/day)
+Organic Matter:
+               1.0    |  OM_ksdocf : half-saturation oxygen attenuation for DOC oxidation (mgO2/L)                  
+               0.4    |  OM_rca :    algal carbon to biomass ratio                             
+               0.1    |  OM_f_lpp :  fraction of algal mortality into LPOC         
+               0.8    |  OM_f_rpp :  fraction of algal mortality into RPOC
+               0.05   |  OM_f_ldp :  fraction of algal mortality into LDOC
+               0.075  |  OM_klp  :   LPOC dissolution rate (/day) LPOC->LDOC
+               0.08   |  OM_kd_lp :  LPOC decay rate to DIC (/day) LPOC->DIC                                                                                          
+               0.01   |  OM_klrp  :  decay rate of LPOC to RPOC (/day) LPOC->RPOC
+               0.0025 |  OM_krp :    RPOC dissolution rate (/day) RPOC->LDOC
+               0.001  |  OM_kd_rp :  RPOC decay rate to DIC (/day) RPOC->DIC                             
+               0.25   |  OM_kld :    LDOC mineralization rate (/day)    LDOC->DIC                
+               0.01   |  OM_klrd :   decay rate of LDOC to RDOC (/day) LDOC->RDOC               
+               0.1    |  OM_ksoxdn : half-saturation oxygen attenuation for denitrification (mgO2/L)
+               0.002  |  OM_kdnit :  NO3 denitrification rate (/day) LDOC consumned
+               0.006  |  OM_krd :    RDOC mineralization rate (/day) RDOC->DIC 
+             391.0    |  OM_p_co2 :  partial pressure of CO2 (ppm,parts per million)
+               0.02   |  OM_ksed :   first-order sediment decay rate (/day)
+               0.05   |  OM_kbur :   first-order sediment burial rate (/day)
+               0.2    |  OM_f_co2:   fraction of DIC in CO2
+               2.5    |  OM_sv_lp :   LPOC settling velocity (m/day)
+               2.5    |  OM_sv_rp :   RPOC settling velocity (m/day)
+Sediment Fluxes:
+               0	|	steadystate: steadystate =1;Time Variable=0 
+               1	|	analytical:               Analytical solution for methane!!0=analytical; 1=numerical 
+               0.5	|	m1           :  kinetic rate parameters
+               0.5	|	m2
+               0.00006	|	Dp
+               0.0025	|	Dd
+               6.85E-06	|	w2
+               0.1	|	H2
+               0.131	|	KappaNH3f  :   reaction velocities (m/d)
+               0.131	|	KappaNH3s
+               0.1	|	KappaNO3_1f
+               0.1	|	KappaNO3_1s
+               0.25	|	KappaNO3_2
+               0.7	|	KappaCH4
+               0.728	|	KM_NH3         :  half saturation constants
+               0.37	|	KM_O2_NH3
+               1	|	KdNH3          : partition coefficients
+              20	|	KdPO42
+              20	|	dKDPO41f
+              20	|	dKDPO41s
+               2	|	O2critPO4
+               1.117	|	ThtaDp         :  temperature thetas
+               1.08	|	ThtaDd
+               1.125	|	ThtaKmNH3    
+               1.123	|	ThtaNH3
+               1.08	|	ThtaNO3
+               1.079	|	ThtaCH4
+               1	|	SALTSW         : salinity thresholds
+               1	|	SALTND
+               0.2	|	KappaH2Sd1      : sulfide constants
+               0.4	|	KappaH2Sp1
+               1.079	|	ThtaH2S
+               4	|	KMHSO2
+             100	|	KdH2S1
+             100	|	KdH2S2
+               0.65	|	frpon1          : fractions of G clase 1 and 2 PON/POC/POP
+               0.25	|	frpon2
+               0.65	|	frpoc1
+               0.2	|	frpoc2
+               0.65	|	frpop1
+               0.2	|	frpop2
+               0.035	|	kpon1           : diagenesis rate constants for G class 1,2, and 3 N/P/C
+               0.0018	|	kpon2
+               0	|	kpon3
+               0.035	|	kpoc1
+               0.0018	|	kpoc2
+               0	|	kpoc3
+               0.035	|	kpop1
+               0.0018	|	kpop2
+               0	|	kpop3
+               1.1	|	ThtaPON1       : temperature thetas for G class 1, 2, and 3
+               1.15	|	ThtaPON2
+               1.17	|	ThtaPON3
+               1.1	|	ThtaPOC1
+               1.15	|	ThtaPOC2
+               1.17	|	ThtaPOC3
+               1.1	|	ThtaPOP1
+               1.15	|	ThtaPOP2
+               1.17	|	ThtaPOP3
+               0.2667	|	POC1R        :     parameters for particle mixing and benthic stress
+               0.03	|	kBEN_STR
+               4	|	KM_O2_Dp
+               0.5	|	KSI          :  Si
+               1.1	|	THTASI
+              40	|	CSISAT
+               1.023	|	THTASISAT
+              10	|	DPIE1SI
+             100	|	PIE2SI
+           50000	|	KMPSI
+               2	|	O2CRITSI
