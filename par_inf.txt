@@ -1,0 +1,428 @@
+  1  : Number of Parameters (the program only reads the first 4 parameters or any number indicated here)
+      1  : number of simulations
+
+
+v__CANMX.hru______PSST    0   0
+v__BIO_E{274}.plant.dat    18   18
+v__ESCO.hru______PSST    0.5   0.5
+v__EPCO.hru______PSST    0.1   0.1
+r__PLTPFR(1){274}.plant.dat    -0.2   -0.2
+r__PLTPFR(2){274}.plant.dat    -0.2   -0.2
+r__PLTPFR(3){274}.plant.dat    -0.2   -0.2
+r__PLTNFR(1){274}.plant.dat    -0.6   -0.6
+r__PLTNFR(2){274}.plant.dat    -0.6   -0.6
+r__PLTNFR(3){274}.plant.dat    -0.6   -0.6
+v__GSI{274}.plant.dat    0.00012   0.00012
+v__BLAI{274}.plant.dat    2.8   2.8
+v__FRGMAX{274}.plant.dat    0.25   0.25
+v__T_BASE{274}.plant.dat    4   4
+v__HVSTI{274}.plant.dat    0.5   0.5
+v__ALAI_MIN{274}.plant.dat    0.1   0.1
+v__DLAI{274}.plant.dat    0.99   0.99
+v__FRGRW1{274}.plant.dat    0.01   0.01
+v__FRGRW2{274}.plant.dat    0.1   0.1
+v__LAIMX1{274}.plant.dat    0.02   0.02
+v__LAIMX2{274}.plant.dat    0.2   0.2
+v__SOL_NO3(2).chm______PSST    1   1
+v__SOL_NO3(1).chm______PSST    1   1
+r__SOL_AWC().sol______PSST    0.5   0.5
+
+
+
+
+
+
+
+
+v__CANMX.hru______WSAK    50   50
+v__EPCO.hru______WSAK    0.99   0.99
+v__ESCO.hru______WSAK    0.01   0.01
+r__SOL_AWC().sol______WSAK    -0.35   -0.35
+v__PHU_PLT.mgt______WSAK    4900   4900
+v__T_BASE{282}.plant.dat    2.2   2.2
+v__DLAI{282}.plant.dat    0.75   0.75
+v__ALAI_MIN{282}.plant.dat    0.3   0.3
+v__BIO_LEAF{282}.plant.dat    0.03   0.03
+v__WAVP{282}.plant.dat    12   12
+v__GSI{282}.plant.dat    0.005   0.005
+v__BIO_E{282}.plant.dat    12   12
+v__BLAI{282}.plant.dat    5   5
+v__SOL_NO3(2).chm______WASK    1   1
+v__SOL_NO3(1).chm______WSAK    5   5
+v__BIOMIX.mgt______WSAK    0.2   0.2
+
+
+v__CANMX.hru______WNAK    50   50
+v__EPCO.hru______WNAK    0.99   0.99
+v__ESCO.hru______WNAK    0.01   0.01
+r__SOL_AWC().sol______WNAK    -0.35   -0.35
+v__PHU_PLT.mgt______WNAK    4200   4200
+v__T_BASE{283}.plant.dat    2.5   2.5
+v__DLAI{283}.plant.dat    0.4   0.4
+v__ALAI_MIN{283}.plant.dat    0.1   0.1
+v__BIO_LEAF{283}.plant.dat    0.04   0.04
+v__WAVP{283}.plant.dat    10   10
+v__GSI{283}.plant.dat    0.006   0.006
+v__BLAI{283}.plant.dat    5.0   5.0
+v__BIO_E{283}.plant.dat    20   20
+v__SOL_NO3(2).chm______WNAK    1   1
+v__SOL_NO3(1).chm______WNAK    5   5
+v__BIOMIX.mgt______WNAK    0.2   0.2
+
+
+v__CANMX.hru______WCAK    7   7
+v__EPCO.hru______WCAK    0.99   0.99
+v__ESCO.hru______WCAK    0.01   0.01
+r__SOL_AWC().sol______WCAK    -0.2   -0.2
+v__PHU_PLT.mgt______WCAK    4300   4300
+v__T_BASE{281}.plant.dat    3.5   3.5
+v__DLAI{281}.plant.dat    0.47   0.47
+v__ALAI_MIN{281}.plant.dat    0.2   0.2
+v__BLAI{281}.plant.dat    3.5   3.5
+v__BIO_LEAF{281}.plant.dat    0.03   0.03
+v__BIO_E{281}.plant.dat    14   14
+v__WAVP{281}.plant.dat    10   10
+v__GSI{281}.plant.dat    0.005   0.005
+v__SOL_NO3(2).chm______WCAK    1   1
+v__SOL_NO3(1).chm______WCAK    5   5
+v__BIOMIX.mgt______WCAK    0.2   0.2
+
+
+
+
+v__CANMX.hru______ASEN    25   25
+v__EPCO.hru______ASEN    0.9   0.9
+v__ESCO.hru______ASEN    0.1   0.1
+r__SOL_AWC().sol______ASEN    -0.3   -0.3
+v__PHU_PLT.mgt______ASEN    3500   3500
+v__T_BASE{275}.plant.dat    6   6
+v__WAVP{275}.plant.dat    50   50
+v__BIO_LEAF{275}.plant.dat    0.05   0.05
+v__BLAI{275}.plant.dat    5.1   5.1
+v__DLAI{275}.plant.dat    0.9   0.9
+v__ALAI_MIN{275}.plant.dat    0.25   0.25
+v__BIO_E{275}.plant.dat    25.5   25.5
+v__FRGMAX{275}.plant.dat    0.99   0.99
+v__GSI{275}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm______ASEN    1   1
+v__SOL_NO3(1).chm______ASEN    5   5
+v__BIOMIX.mgt______ASEN__    0.2   0.2
+
+
+v__CANMX.hru______ASWN    28.759106   28.759106
+v__ESCO.hru______ASWN    0.577368   0.577368
+v__EPCO.hru______ASWN    0.669757   0.669757
+r__SOL_AWC().sol______ASWN    -0.1   -0.1
+v__PHU_PLT.mgt______ASWN    2000   2000
+v__T_BASE{276}.plant.dat    8   8
+v__WAVP{276}.plant.dat    50   50
+v__DLAI{276}.plant.dat    0.7   0.7
+v__BIO_LEAF{276}.plant.dat    0.05   0.05
+v__BLAI{276}.plant.dat    5   5
+v__ALAI_MIN{276}.plant.dat    0.25   0.25
+v__BIO_E{276}.plant.dat    23   23
+v__FRGMAX{276}.plant.dat    0.99   0.99
+v__GSI{276}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm______ASWN    1   1
+v__SOL_NO3(1).chm______ASWN    5   5
+v__BIOMIX.mgt______ASWN    0.2   0.2
+
+
+v__CANMX.hru______FRED    30   30
+v__EPCO.hru______FRED    0.9   0.9
+v__ESCO.hru______FRED    0.1   0.1
+r__SOL_AWC().sol______FRED    -0.3   -0.3
+v__PHU_PLT.mgt______FRED    2100   2100
+v__T_BASE{277}.plant.dat    7   7
+v__WAVP{277}.plant.dat    50   50
+v__BIO_LEAF{277}.plant.dat    0.05   0.05
+v__BLAI{277}.plant.dat    3.9   3.9
+v__DLAI{277}.plant.dat    0.99   0.99
+v__ALAI_MIN{277}.plant.dat    0.25   0.25
+v__BIO_E{277}.plant.dat    24   24
+v__FRGMAX{277}.plant.dat    0.99   0.99
+v__GSI{277}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm______FRED    1   1
+v__SOL_NO3(1).chm______FRED    5   5
+v__BIOMIX.mgt______FRED    0.2   0.2
+
+
+v__CANMX.hru______FRWD    30   30
+v__EPCO.hru______FRWD    0.9   0.9
+v__ESCO.hru______FRWD    0.1   0.1
+r__SOL_AWC().sol    -0.3   -0.3
+v__PHU_PLT.mgt______FRWD    2100   2100
+v__T_BASE{278}.plant.dat    7   7
+v__WAVP{278}.plant.dat    50   50
+v__BIO_LEAF{278}.plant.dat    0.05   0.05
+v__BLAI{278}.plant.dat    3.5   3.5
+v__DLAI{278}.plant.dat    0.99   0.99
+v__ALAI_MIN{278}.plant.dat    0.25   0.25
+v__BIO_E{278}.plant.dat    18   18
+v__FRGMAX{278}.plant.dat    0.99   0.99
+v__GSI{278}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm    1   1
+v__SOL_NO3(1).chm    5   5
+v__BIOMIX.mgt______FRWD    0.2   0.2
+
+
+v__CANMX.hru______FESE    30   30
+v__EPCO.hru______FESE    0.9   0.9
+v__ESCO.hru______FESE    0.1   0.1
+r__SOL_AWC().sol    -0.3   -0.3
+v__PHU_PLT.mgt______FESE    2100   2100
+v__T_BASE{279}.plant.dat    7   7
+v__WAVP{279}.plant.dat    50   50
+v__BIO_LEAF{279}.plant.dat    0.05   0.05
+v__BLAI{279}.plant.dat    5   5
+v__DLAI{279}.plant.dat    0.98   0.98
+v__ALAI_MIN{279}.plant.dat    0.25   0.25
+v__BIO_E{279}.plant.dat    14   14
+v__FRGMAX{279}.plant.dat    0.99   0.99
+v__GSI{279}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm    1   1
+v__SOL_NO3(1).chm    5   5
+v__BIOMIX.mgt______FESE    0.2   0.2
+
+
+v__CANMX.hru______FWSE    30   30
+v__EPCO.hru______FWSE    0.9   0.9
+v__ESCO.hru______FWSE    0.1   0.1
+r__SOL_AWC().sol______FWSE    -0.3   -0.3
+v__PHU_PLT.mgt______FWSE    1800   1800
+v__T_BASE{280}.plant.dat    7   7
+v__DLAI{280}.plant.dat    0.95   0.95
+v__ALAI_MIN{280}.plant.dat    0.5   0.5
+v__BIO_LEAF{280}.plant.dat    0.05   0.05
+v__BLAI{280}.plant.dat    4.2   4.2
+v__BIO_E{280}.plant.dat    18   18
+v__GSI{280}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm______FWSE    1   1
+v__SOL_NO3(1).chm______FWSE    5   5
+v__BIOMIX.mgt______FWSE    0.2   0.2
+
+
+v__CANMX.hru______MAPL    50   50
+v__EPCO.hru______MAPL    0.99   0.99
+v__ESCO.hru______MAPL    0.01   0.01
+r__SOL_AWC().sol______MAPL    -0.3   -0.3
+v__PHU_PLT.mgt______MAPL    2600   2600
+v__T_BASE{127}.plant.dat    2.5   2.5
+v__DLAI{127}.plant.dat    0.99   0.99
+v__ALAI_MIN{127}.plant.dat    0.01   0.01
+v__BLAI{127}.plant.dat    5.0   5.0
+v__BIO_E{127}.plant.dat    19   19
+v__BIO_LEAF{127}.plant.dat    0.006   0.006
+v__SOL_NO3(2).chm______MAPL    1   1
+v__SOL_NO3(1).chm______MAPL    5   5
+v__BIOMIX.mgt______MAPL    0.2   0.2
+
+
+v__CANMX.hru______WEEF    35   35
+v__EPCO.hru______WEEF    0.7   0.7
+v__ESCO.hru______WEEF    0.2   0.2
+r__SOL_AWC().sol______WEEF    -0.1   -0.1
+v__PHU_PLT.mgt______WEEF    2500   2500
+v__T_BASE{284}.plant.dat    2   2
+r__DLAI{284}.plant.dat    -0.35   -0.35
+v__ALAI_MIN{284}.plant.dat    0.1   0.1
+v__BIO_LEAF{284}.plant.dat    0.03   0.03
+v__BLAI{284}.plant.dat    5.90   5.90
+v__BIO_E{284}.plant.dat    15   15
+v__SOL_NO3(2).chm______WEEF    1   1
+v__SOL_NO3(1).chm______WEEF    5   5
+v__BIOMIX.mgt______WEEF    0.2   0.2
+
+
+v__CANMX.hru______WEWF    45   45
+v__EPCO.hru______WEWF    0.8   0.8
+v__ESCO.hru______WEWF    0.2   0.2
+v__PHU_PLT.mgt______WEWF    2500   2500
+v__T_BASE{285}.plant.dat    2   2
+r__DLAI{285}.plant.dat    -0.2   -0.2
+v__ALAI_MIN{285}.plant.dat    0.05   0.05
+v__BIO_LEAF{285}.plant.dat    0.03   0.03
+v__BLAI{285}.plant.dat    5.31   5.31
+v__BIO_E{285}.plant.dat    14   14
+v__SOL_NO3(2).chm______WEWF    1   1
+v__SOL_NO3(1).chm______WEWF    5   5
+v__BIOMIX.mgt______WEWF    0.2   0.2
+
+
+
+v__RSDCO_PL{275}.plant.dat    2.4   2.4
+v__RSDCO_PL{276}.plant.dat    2   2
+v__RSDCO_PL{277}.plant.dat    2.6   2.6
+v__RSDCO_PL{278}.plant.dat    2.6   2.6
+v__RSDCO_PL{279}.plant.dat    2.6   2.6
+v__RSDCO_PL{280}.plant.dat    2.6   2.6
+v__RSDCO_PL{285}.plant.dat    2   2
+v__RSDCO_PL{127}.plant.dat    2.6   2.6
+
+
+v__ESCO.hru______CNRN,CNRT,CSRN,CSRT    0.99   0.99
+v__EPCO.hru______CNRN,CNRT,CSRN,CSRT    0.1   0.1
+v__SOL_NO3(2).chm______CNRN,CNRT,CSRN,CSRT    1   1
+v__SOL_NO3(1).chm______CNRN,CNRT,CSRN,CSRT    5   5
+
+v__BIO_E{263,264}.plant.dat    34   34
+v__BIO_E{265,266}.plant.dat    39.5   39.5
+
+v__BLAI{263,264}.plant.dat    4.5   4.5
+v__BLAI{265,266}.plant.dat    3.75   3.75
+
+v__HVSTI{263,264}.plant.dat    0.60   0.60
+v__HVSTI{265,266}.plant.dat    0.69   0.69
+
+v__T_BASE{263,264}.plant.dat    8   8
+v__T_BASE{265,266}.plant.dat    8   8
+
+v__GSI{263,264,265,266}.plant.dat    0.0038   0.0038
+v__FRGMAX{263,264,265,266}.plant.dat    0.95   0.95
+v__DLAI{263,264,265,266}.plant.dat    0.9   0.9
+v__ALAI_MIN{263,264,265,266}.plant.dat    0.3   0.3
+r__PLTNFR(1){263,264,265,266}.plant.dat    7.5   7.5
+r__PLTNFR(2){263,264,265,266}.plant.dat    7.5   7.5
+r__PLTNFR(3){263,264,265,266}.plant.dat    7.5   7.5
+r__PLTPFR(1){263,264,265,266}.plant.dat    7.5   7.5
+r__PLTPFR(2){263,264,265,266}.plant.dat    7.5   7.5
+r__PLTPFR(3){263,264,265,266}.plant.dat    7.5   7.5
+
+
+
+v__ESCO.hru______SNYB,SNYT,SSYB,SSYT    0.99   0.99
+v__EPCO.hru______SNYB,SNYT,SSYB,SSYT    0.6   0.6
+v__BIO_E{267,268}.plant.dat    24   24
+v__HVSTI{267,268}.plant.dat    0.35   0.35
+v__T_BASE{267,268}.plant.dat    10   10
+v__BLAI{267,268}.plant.dat    3.5   3.5
+v__ALAI_MIN{267,268}.plant.dat    0.1   0.1
+v__DLAI{267,268}.plant.dat    0.99   0.99
+v__FRGRW1{267,268}.plant.dat    0.15   0.15
+v__FRGRW2{267,268}.plant.dat    0.7   0.7
+v__LAIMX1{267,268}.plant.dat    0.05   0.05
+v__LAIMX2{267,268}.plant.dat    0.8   0.8
+v__GSI{267,268}.plant.dat    0.0018   0.0018
+v__SOL_NO3(2).chm______SNYB,SNYT    1   1
+v__SOL_NO3(1).chm______SNYB,SNYT    1   1
+v__PLTNFR(1){267,268}.plant.dat    0.0524   0.0524
+v__PLTNFR(2){267,268}.plant.dat    0.0265   0.0265
+v__PLTNFR(3){267,268}.plant.dat    0.0258   0.0258
+v__PLTPFR(1){267,268}.plant.dat    0.0074   0.0074
+v__PLTPFR(2){267,268}.plant.dat    0.0037   0.0037
+v__PLTPFR(3){267,268}.plant.dat    0.0035   0.0035
+
+
+
+v__BIO_E{269,270}.plant.dat    35   35
+v__HVSTI{269,270}.plant.dat    0.4   0.4
+v__T_BASE{269,270}.plant.dat    10   10
+v__BLAI{269,270}.plant.dat    2.35   2.35
+v__ALAI_MIN{269,270}.plant.dat    0.5   0.5
+v__DLAI{269,270}.plant.dat    0.99   0.99
+v__FRGRW1{269,270}.plant.dat    0.13   0.13
+v__FRGRW2{269,270}.plant.dat    0.7   0.7
+v__LAIMX1{269,270}.plant.dat    0.05   0.05
+v__LAIMX2{269,270}.plant.dat    0.9   0.9
+v__GSI{269,270}.plant.dat    0.0035   0.0035
+v__SOL_NO3(2).chm______SSYB,SSYT    1   1
+v__SOL_NO3(1).chm______SSYB,SSYT    1   1
+v__PLTNFR(1){269,270}.plant.dat    0.0524   0.0524
+v__PLTNFR(2){269,270}.plant.dat    0.0265   0.0265
+v__PLTNFR(3){269,270}.plant.dat    0.0258   0.0258
+v__PLTPFR(1){269,270}.plant.dat    0.0074   0.0074
+v__PLTPFR(2){269,270}.plant.dat    0.0037   0.0037
+v__PLTPFR(3){269,270}.plant.dat    0.0035   0.0035
+
+
+
+v__BIO_E{274}.plant.dat    18   18
+v__ESCO.hru______PSST    0.5   0.5
+v__EPCO.hru______PSST    0.1   0.1
+r__PLTPFR(1){274}.plant.dat    -0.2   -0.2
+r__PLTPFR(2){274}.plant.dat    -0.2   -0.2
+r__PLTPFR(3){274}.plant.dat    -0.2   -0.2
+r__PLTNFR(1){274}.plant.dat    -0.6   -0.6
+r__PLTNFR(2){274}.plant.dat    -0.6   -0.6
+r__PLTNFR(3){274}.plant.dat    -0.6   -0.6
+v__GSI{274}.plant.dat    0.00012   0.00012
+v__BLAI{274}.plant.dat    2.8   2.8
+v__FRGMAX{274}.plant.dat    0.25   0.25
+v__T_BASE{274}.plant.dat    4   4
+v__HVSTI{274}.plant.dat    0.5   0.5
+v__ALAI_MIN{274}.plant.dat    0.1   0.1
+v__DLAI{274}.plant.dat    0.99   0.99
+v__FRGRW1{274}.plant.dat    0.01   0.01
+v__FRGRW2{274}.plant.dat    0.1   0.1
+v__LAIMX1{274}.plant.dat    0.02   0.02
+v__LAIMX2{274}.plant.dat    0.2   0.2
+v__SOL_NO3(2).chm______PSST    1   1
+v__SOL_NO3(1).chm______PSST    1   1
+r__SOL_AWC().sol______PSST    0.5   0.5
+
+
+v__BIO_E{273}.plant.dat    20   20
+v__ESCO.hru______PNST    0.99   0.99
+v__EPCO.hru______PNST    0.99   0.99
+v__GSI{273}.plant.dat    0.002   0.002
+v__T_BASE{273}.plant.dat    5   5
+v__BLAI{273}.plant.dat    3.6   3.6
+v__ALAI_MIN{273}.plant.dat    0.05   0.05
+v__DLAI{273}.plant.dat    0.99   0.99
+v__FRGRW1{273}.plant.dat    0.01   0.01
+v__FRGRW2{273}.plant.dat    0.1   0.1
+v__LAIMX1{273}.plant.dat    0.02   0.02
+v__LAIMX2{273}.plant.dat    0.2   0.2
+v__SOL_NO3(2).chm______PNST    1   1
+v__SOL_NO3(1).chm______PNST    1   1
+
+
+v__ESCO.hru______ALFA    0.99   0.99
+v__EPCO.hru______ALFA    0.99   0.99
+v__GSI{52}.plant.dat    0.002   0.002
+v__T_BASE{52}.plant.dat    7   7
+v__BIO_E{52}.plant.dat    28   28
+v__HVSTI{52}.plant.dat    0.5   0.5
+v__BLAI{52}.plant.dat    3.2   3.2
+v__ALAI_MIN{52}.plant.dat    0.01   0.01
+v__DLAI{52}.plant.dat    0.89   0.89
+v__FRGRW1{52}.plant.dat    0.01   0.01
+v__FRGRW2{52}.plant.dat    0.1   0.1
+v__LAIMX1{52}.plant.dat    0.02   0.02
+v__LAIMX2{52}.plant.dat    0.2   0.2
+v__SOL_NO3(2).chm______ALFA    1   1
+v__SOL_NO3(1).chm______ALFA    1   1
+
+
+v__ESCO.hru______HAYN    0.99   0.99
+v__EPCO.hru______HAYN    0.99   0.99
+v__BIO_E{271}.plant.dat    30   30
+v__GSI{271}.plant.dat    0.002   0.002
+v__T_BASE{271}.plant.dat    7   7
+v__HVSTI{271}.plant.dat    0.5   0.5
+v__BLAI{271}.plant.dat    7.2   7.2
+v__ALAI_MIN{271}.plant.dat    0.1   0.1
+v__DLAI{271}.plant.dat    0.99   0.99
+v__FRGRW1{271}.plant.dat    0.01   0.01
+v__FRGRW2{271}.plant.dat    0.1   0.1
+v__LAIMX1{271}.plant.dat    0.02   0.02
+v__LAIMX2{271}.plant.dat    0.2   0.2
+v__SOL_NO3(2).chm______HAYN    1   1
+v__SOL_NO3(1).chm______HAYN    1   1
+
+
+v__ESCO.hru______HAYS    0.99   0.99
+v__EPCO.hru______HAYS    0.99   0.99
+v__BIO_E{272}.plant.dat    30   30
+v__GSI{272}.plant.dat    0.002   0.002
+v__T_BASE{272}.plant.dat    7   7
+v__HVSTI{272}.plant.dat    0.5   0.5
+v__BLAI{272}.plant.dat    4.5   4.5
+v__ALAI_MIN{272}.plant.dat    0.1   0.1
+v__DLAI{272}.plant.dat    0.9   0.9
+v__FRGRW1{272}.plant.dat    0.01   0.01
+v__FRGRW2{272}.plant.dat    0.1   0.1
+v__LAIMX1{272}.plant.dat    0.02   0.02
+v__LAIMX2{272}.plant.dat    0.2   0.2
+v__SOL_NO3(2).chm______HAYS    1   1
+v__SOL_NO3(1).chm______HAYS    1   1

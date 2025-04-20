@@ -1,0 +1,64 @@
+Basin data           .bsn file 12/7/2017 12:00:00 AM ArcSWAT 2012.10_3.19
+Modeling Options: 
+               2    | CSWAT  :2=  EPIC/Daycent
+Weather Input:
+               0    | iwea : 0 = daily weather input; 1=hourly weather input
+               0    | idh : 0= do not calculate hourly weather from daily weather input;  1 = calculate hourly weather from daily weather input
+              24    | nstep1  : hourly weather used for either iwea=0 and idh=1 or iwea=1 and idh=0
+              60    | idt1   :  minutes  used for either iwea=0 and idh=1 or iwea=1 and idh=0
+Temperature:          
+               1    | tswat : 0 = original soil temperature module; 1 = heat transfer module
+               0    | iwtmp_sub : 0 = temperature index module ; 1= Ficilin's subbasin water temperaute module; 2= Qi's subbasin water temperature module
+               0    | iwtmp_rch : 0 = temperature index stream temperature module; 1 = equilibrium stream temperature module
+Nitrogen:          
+               1    | nswat : 0 = original  nitrification and denitrification module;  1= other modules
+               2    | denit_method  : 0 =original SWAT algorithm;  1= Yang et al 2017  ; 2=Wagena et al 2017; 3= no denitrication
+               6    | denit_n2o_method  : 1 =Yang et al 2017  ;  2= Daycent ((Fang et al 2015) ;3=   NOE model  (Fang et al 2015) ; !! 4 =WNMM model  (Fang et al 2015); 5= FASSET model (Fang et al 2015); 6=  Wagena et al 2017            
+               1    | denit_no_method  : 0= no NO calculation ; 1= Yang et al 2017; 2= DAYCENT used by Fang, et al. 2015
+               3    | nit_method  : 0 = original SWAT algorithm;  1= Yang et al 2017   ; 2= no nitrification； 3= Wagena et al 2017
+               6    | nit_n2o_method  : 1 =Yang et al 2017 ;   2=Daycent ((Fang et al 2015);   3=NOE model (Fang et al 2015);!! 4=WNMM model  (Fang et al 2015); 5= FASSET model (Fang et al 2015); 6= Wagena et al 2017; 7= CLM4.5 (Li et al., 2000)(Fu et al 2018)£» 8= calibration                
+               1    | nit_no_method   : 0 = no NO calculation ; 1= Yang et al 2017; 2= DAYCENT used by Fang, et al. 2015
+Reach:
+               3    | iwq :  0 = noqual (CSWAT=1); 1 = watqual2 (CSWAT=1); 2= watqual_Du(CSWAT=2); 3= CNP_day(CSWAT=2); 4= CNP_dayno(CSWAT=2)
+               0    | ievent_rch  :  0 = daily time step; 1 = subdaily time step
+               0    | nstep_rch :  when ievent_rch =1，  1440= 1min; 144=10min; 48=30min; 24= hourly;   12=2hour; 6= 4hour; 4=6hour; 2=12hour; 1= daily; 
+               1    | irch_SedFlux : 0= no simulation of sediment flux; 1= simulating sediment flux
+               1    | irch_SedResusp : 0= no simulation of sedment flux resusp; 1 = simulating sediment resuspension flux induced nutrient flux
+               1    | irch_btalg    ==0 no simulation of bottom algea; ==1 simulation of bottom algea in reach.
+               2    | irch_orgn     ==1 only total orgn(no simulation of rpon, lpon, rdon, ldon); ==2 simulation of rpon, lpon, rdon, ldon.
+               2    | irch_orgp    ==1 only total orgp(no simulation of rpop, lpop, rdop, ldop); ==2 simulation of rpop, lpop, rdop, ldop.
+               1    | irch_co2atm    ==0 no simulation of CO2 emission;==1 simulation of CO2 emission based on original SWAT; ==2 based on Q2K.
+               1    | irch_no3den    ==0 no simulation of no3 denitrification; ==1 simulation of no3 denitrification in reach.
+               1    | irch_n2oatm     ==0 no simulation of n2o/n2 emission; ==1 simulation of n2o/n2 emission in reach.
+               1    | irch_nh4atm    ==0 no simulation of nh4 volatilization; ==1 simulation of nh4 volatilization in reach.
+               1    | irch_ch4atm    ==0 no simulation of CH4 emission; ==1 simulation of ch4 emission in reach.
+               1    | irch_o2atm    ==0 no simulation of O2 emission;==1 simulation of O2 emission based on original SWAT; ==2 based on Q2K.
+               1    | irch_alkph   ==0 no simulation of water Ph and alkalinity ;==1 simulation of water Ph and alkalinity.
+Reservoir:
+               0    | ires_SedFlux :  1 = simulating sediment flux
+               0    | ires_SedResusp : 1 = simulating sediment resuspension flux induced nutrient flux
+CO2 Input:
+               0    | ico2 :  0= using default CO2 value; 1=reading in co2 concentration.    NOTE: need co2.dat file
+Forest Modeling:
+               0    | ifor :  0=default forestry module;  1=Yang et al 2019 forestry module; 2=3PG    NOTE: need updataed plant.dat file for 1 and new input files for 2
+Print Options:
+               0    | ohru  : 1= print out hru output .hru; 0= no print out 
+               0    | oluc  : 1= print out landuse outputs .luc; 0= no print out
+               0    | rch2  : 1= print out output_carbon.rch; 0= no print out 
+               0    | rch3  : 1= print out output_sedflux.rch; 0= no print out 
+               0    | rch4  : 1= print out output_nitrogen.rch; 0= no print out 
+               0    | rch5  : 1= print out output_phosphorus.rch; 0= no print out 
+               0    | rch6  : 1= print out output_waterquality; 0= no print out 
+               0    | rch7  : 1= print out output_oxygen.rch; 0= no print out 
+               0    | res2  : 1= print out output.res2; 0= no print out 
+               0    | res3  : 1= print out output.res3; 0= no print out 
+               0    | res4  : 1= print out output.res4; 0= no print out 
+               0    | res5  : 1= print out output.res5; 0= no print out 
+               0    | res6  : 1= print out output.res6; 0= no print out 
+               0    | res7  : 1= print out output.res7; 0= no print out 
+               0    | isubdaily_output :  0= no print subdaily output; 1 = print out subdaily output for reach and res 
+Special Projects:      
+               0    |iproject_lst   : 1= readin MODIS Land surface temperature 
+         
+
+      
